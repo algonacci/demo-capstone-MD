@@ -30,7 +30,7 @@ class _TfLitePageState extends State<TfLitePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           "Predict with TF Lite",
         ),
         centerTitle: true,
@@ -45,7 +45,7 @@ class _TfLitePageState extends State<TfLitePage> {
                 onPressed: () {
                   getImage(ImageSource.gallery);
                 },
-                child: Text(
+                child: const Text(
                   "Select Image",
                 ),
               ),
@@ -58,7 +58,7 @@ class _TfLitePageState extends State<TfLitePage> {
                 onPressed: () {
                   getImage(ImageSource.camera);
                 },
-                child: Text(
+                child: const Text(
                   "Take Picture",
                 ),
               ),
